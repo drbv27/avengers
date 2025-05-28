@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <title>Avengers Assemble!!!</title>
+  </head>
+  <body>
+    <!--Comienza Barra de navegacion-->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/LogoLetra.png" alt="logo" id="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Other Page</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Termina Barra de navegacion-->
+    <main>
+      <!--Inicia Hero Container-->
+      <div id="hero">
+        <img
+          src="./assets/img/Base-de-los-vengadores-y-el-Quinjet.jpg"
+          alt="base"
+          id="base"
+        />
+        <div id="overlay"></div>
+        <div class="nickfury">
+          <img src="./assets/img/nickFury.png" alt="nick" id="nick" />
+        </div>
+        <div id="texto">
+          <p>Avengers Assemble!!!</p>
+          <button class="btn btn-danger">Attend the call</button>
+        </div>
+      </div>
+      <!--Termina Hero Container-->
+
+      <!--Inicia Contacto-->
+      <section class="contact bg-dark py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-1">
+              <input
+                type="text"
+                placeholder="Enter your code name..."
+                class="form-control"
+              />
+            </div>
+            <div class="col-md-4 mb-1">
+              <input
+                type="text"
+                placeholder="Enter your agent email..."
+                class="form-control"
+              />
+            </div>
+            <div class="col-md-4 d-grid gap-2 mb-1">
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Termina Contacto-->
+      <!--Inicia Videos-->
+      <section id="videos" class="py-5">
+        <h2 class="display-5 text-center">Legendary Battles</h2>
+        <div class="container">
+          <div class="row">
+            <!--***Inicia card1-->
+            <div class="col-md-6 col-lg-3 my-1">
+              <div class="card shadow">
+                <div class="card-body">
+                  <h5 class="card-title">New York Battle</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <iframe
+                    width="100%"
+                    height="auto"
+                    src="https://www.youtube.com/embed/r4RiRmlmwC8?si=4B_pvHOyn0Hsq_47"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <!--***Termina card1-->
+            <!--***Inicia card2-->
+            <div class="col-md-6 col-lg-3 my-1">
+              <div class="card shadow">
+                <div class="card-body">
+                  <h5 class="card-title">Civil War</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <iframe
+                    width="100%"
+                    height="auto"
+                    src="https://www.youtube.com/embed/GV9AEEIeHrQ?si=E9N8RUxH5wFkEvIv"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <!--***Termina card2-->
+            <!--***Inicia card3-->
+            <div class="col-md-6 col-lg-3 my-1">
+              <div class="card shadow">
+                <div class="card-body">
+                  <h5 class="card-title">Wakanda Battle</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <iframe
+                    width="100%"
+                    height="auto"
+                    src="https://www.youtube.com/embed/7E7-CNl5qUI?si=iy4TolPJWr1B0NGw"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <!--***Termina card3-->
+            <!--***Inicia card4-->
+            <div class="col-md-6 col-lg-3 my-1">
+              <div class="card shadow">
+                <div class="card-body">
+                  <h5 class="card-title">End game Battle</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <iframe
+                    width="100%"
+                    height="auto"
+                    src="https://www.youtube.com/embed/b7Roaw7r9XM?si=Wc9B4PP_q1P1R8W4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <!--***Termina card4-->
+          </div>
+        </div>
+      </section>
+      <!--Termina Videos-->
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

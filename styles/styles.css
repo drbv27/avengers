@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#logo {
+  width: 4rem;
+  height: auto;
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, auto);
+}
+
+#base {
+  width: 98.9vw;
+  grid-column: 1/9;
+  grid-row: 1/9;
+}
+
+#overlay {
+  background-color: navy;
+  opacity: 0.4;
+  grid-column: 1/9;
+  grid-row: 1/9;
+}
+
+.nickfury {
+  z-index: 7;
+  grid-column: 2/4;
+  grid-row: 3/8;
+  width: 18vw;
+}
+
+#nick {
+  width: 100%;
+}
+
+#texto {
+  z-index: 7;
+  grid-column: 5/8;
+  grid-row: 4/6;
+  color: white;
+  font-size: 2rem;
+}
